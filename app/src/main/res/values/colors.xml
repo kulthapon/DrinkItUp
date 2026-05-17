@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--YELLOW-->
+        <color name="light_yellow">#FFF586</color>  <!--เมนู(Hard)-->
+        <color name="yellow">#FFF073</color>        <!--Background(Normal), ขอบปุ่มกดหน้าแรก, แถบเวลา-->
+        <color name="dark_yellow">#FBF973</color>   <!--ดาวเมนู(Normal)-->
+
+    <!--PINK-->
+        <color name="soft_pink">#FFCFCF</color>     <!--ขอบปุ่มเลือกระดับRecipe-->
+        <color name="light_pink">#F29CA7</color>    <!--Background(Hard)-->
+        <color name="pink">#F88A73</color>          <!--ปุ่ม, เวลาที่เหลือ-->
+        <color name="dark_pink">#F7826B</color>     <!--คำใบ้-->
+
+    <!--AQUA-->
+        <color name="aqua">#38C4CB</color>
+        <color name="dark_aqua">#2CBFC4</color>
+
+    <!--GREEN-->
+        <color name="green">#92D08A</color>         <!--แถบเวลา, ปุ่มcontinue-->
+        <color name="dark_green">#82D077</color>
+
+    <!--GREY-->
+        <color name="grey">#F5F5F5</color>          <!--สีเวลากดปุ่มสีขาว-->
+        <color name="dark_grey">#707070</color>     <!--ชื่อเมนู(Hard)-->
+
+    <!--ALL COLOR-->
+        <color name="purple">#9E40D2</color>
+        <color name="orange">#FFA722</color>        <!--หัวข้อ, เมนู(Normal)-->
+
+    <!--TEXT COLOR-->
+        <color name="brown">#A85E5E</color>
+        <color name="camel">#B9A483</color>
+
+    <!--Background-->
+        <color name="darkBackground">#121212</color>
+        <color name="lightBackground">#FFFFFF</color>
+
+
+</resources>

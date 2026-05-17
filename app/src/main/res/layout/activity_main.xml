@@ -1,0 +1,109 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/deco"
+        app:srcCompat="@drawable/wave"
+        android:scaleType="centerCrop"
+        tools:ignore="ImageContrastCheck"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center|center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/logo_full"
+            tools:ignore="ImageContrastCheck" />
+
+        <!-- ปุ่มไปหน้าเกม -->
+        <Button
+            android:id="@+id/btnGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/b_start"
+            android:textSize="25sp"
+            android:fontFamily="@font/nunito_black"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_start"
+            app:backgroundTint="@null"
+            tools:ignore="TextContrastCheck" />
+
+        <!-- ปุ่มไปหน้า Recipe -->
+        <Button
+            android:id="@+id/btnRecipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/b_recipe"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:fontFamily="@font/nunito_black"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_recipe"
+            app:backgroundTint="@null"
+            tools:ignore="TextContrastCheck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@android:color/transparent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/highScore"
+                android:textSize="20sp"
+                android:fontFamily="@font/nunito_black"
+                android:textColor="@color/brown" />
+
+            <TextView
+                android:id="@+id/highScoreTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_0x"
+                android:textSize="25sp"
+                android:fontFamily="@font/nunito_black"
+                android:textColor="@color/camel"
+                tools:ignore="TextContrastCheck" />
+
+        </LinearLayout>
+
+        <!-- Toggle Switch สำหรับ Dark Mode -->
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/toggleSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:thumbTint="@color/orange"
+            android:trackTint="@color/orange"
+            android:layout_gravity="start"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

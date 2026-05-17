@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- เมื่อปุ่มถูกกด -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/dark_aqua"/>  <!-- สีที่ต้องการเมื่อกดปุ่ม -->
+            <corners android:radius="50dp" /> <!-- ขอบมนของปุ่ม -->
+            <stroke android:color="@color/light_yellow" android:width="8dp" /> <!-- ขอบของปุ่ม -->
+            <size android:height="60dp" android:width="180dp" /> <!-- ขนาดของปุ่ม -->
+        </shape>
+    </item>
+
+    <!-- สถานะปกติ (ไม่ถูกกด) -->
+    <item>
+        <shape>
+            <solid android:color="@color/aqua" /> <!-- สีพื้นหลังของปุ่ม -->
+            <corners android:radius="50dp" /> <!-- ขอบมนของปุ่ม -->
+            <stroke android:color="@color/yellow" android:width="8dp" /> <!-- ขอบของปุ่ม -->
+            <size android:height="60dp" android:width="180dp" /> <!-- ขนาดของปุ่ม -->
+        </shape>
+    </item>
+</selector>

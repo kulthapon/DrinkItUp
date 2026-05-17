@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TimesUp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tvTimesUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/timesUp"
+        android:textColor="@color/orange"
+        android:fontFamily="@font/nunito_black"
+        android:textSize="48sp"
+        tools:ignore="TextContrastCheck"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:padding="16dp">
+
+        <!-- Box: พื้นหลัง อยู่กลาง -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/background_box"
+            android:layout_gravity="center" />
+
+        <!-- TextView ซ้อนบน Box อยู่ด้านบน -->
+        <TextView
+            android:id="@+id/textScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/header_orange"
+            android:fontFamily="@font/nunito_black"
+            android:gravity="center"
+            android:paddingLeft="40dp"
+            android:paddingTop="15dp"
+            android:paddingRight="40dp"
+            android:paddingBottom="15dp"
+            android:text="@string/score"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            tools:ignore="TextContrastCheck"/>
+
+        <!-- Final Score TextView ตรงกลาง -->
+        <TextView
+            android:id="@+id/finalScoreTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_0y"
+            android:textSize="36sp"
+            android:fontFamily="@font/nunito_black"
+            android:textColor="@color/dark_grey"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/highScore"
+            android:textSize="20sp"
+            android:fontFamily="@font/nunito_black"
+            android:textColor="@color/brown"/>
+
+        <TextView
+            android:id="@+id/highScoreTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_0z"
+            android:textSize="25sp"
+            android:fontFamily="@font/nunito_black"
+            android:textColor="@color/camel"
+            tools:ignore="TextContrastCheck"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnTryAgain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/button_pink"
+                android:fontFamily="@font/nunito_black"
+                android:paddingTop="0dp"
+                android:paddingBottom="2dp"
+                android:text="@string/b_tryagain"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:backgroundTint="@null"
+                app:icon="@drawable/button_again"
+                app:iconGravity="top"
+                app:iconPadding="0dp"
+                app:iconSize="40dp"
+                app:iconTint="@color/white"
+                tools:ignore="TextContrastCheck,ButtonStyle" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnHome"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/button_aqua"
+                android:fontFamily="@font/nunito_black"
+                android:paddingTop="8dp"
+                android:paddingBottom="2dp"
+                android:text="@string/b_home"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:backgroundTint="@null"
+                app:icon="@drawable/button_home"
+                app:iconGravity="top"
+                app:iconPadding="2dp"
+                app:iconSize="30dp"
+                app:iconTint="@color/white"
+                tools:ignore="TextContrastCheck,ButtonStyle" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

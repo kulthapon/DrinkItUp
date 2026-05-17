@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">Drink It Up!</string>
+
+    <!--BUTTON-->
+        <string name="b_start">START!</string>
+        <string name="b_recipe">RECIPE</string>
+        <string name="b_continue">CONTINUE</string>
+        <string name="b_newgame">NEW GAME</string>
+        <string name="b_tryagain">TRY AGAIN</string>
+        <string name="b_home">HOME</string>
+        <string name="dark_mode">Dark Mode</string>
+
+    <!--TEXT-->
+        <string name="score">SCORE</string>
+        <string name="highScore">HIGH SCORE</string>
+        <string name="pause">PAUSE</string>
+        <string name="timesUp">TIMES UP!</string>
+        <string name="normal">NORMAL</string>
+        <string name="hard">HARD</string>
+        <string name="warning">Press again to exit the app.</string>
+        <string name="no_scores_yet">No scores yet!</string>
+
+    <!--GAME NORMAL-->
+        <string name="apple_punch">Apple Punch</string>
+        <string name="apple_punch_hint">Crisp and refreshing with a tangy twist.</string>
+
+        <string name="berry_cooler">Berry Cooler</string>
+        <string name="berry_cooler_hint">Sweet, juicy, and full of fruity goodness.</string>
+
+        <string name="berry_lemonade">Berry Lemonade</string>
+        <string name="berry_lemonade_hint">Sweet meets zesty for a refreshing sip.</string>
+
+        <string name="coco_berry">Coco-Berry</string>
+        <string name="coco_berry_hint">A tropical touch with a burst of sweetness.</string>
+
+        <string name="choco_freeze">Choco Freeze</string>
+        <string name="choco_freeze_hint">Creamy, cool, and chocolatey.</string>
+
+        <string name="choco_mint_tea">Choco Mint Tea</string>
+        <string name="choco_mint_tea_hint">Herbal freshness with a rich chocolate base.</string>
+
+        <string name="cider_fizz">Cider Fizz</string>
+        <string name="cider_fizz_hint">Crisp and bubbly with a cool finish.</string>
+
+        <string name="coconut_delight">Coconut Delight</string>
+        <string name="coconut_delight_hint">Tropical refreshment with a chilly twist.</string>
+
+        <string name="frozen_grape">Frozen Grape</string>
+        <string name="frozen_grape_hint">Tart, cool, and extra refreshing.</string>
+
+        <string name="golden_tea">Golden Tea</string>
+        <string name="golden_tea_hint">Warm, sweet, and slightly tangy.</string>
+
+        <string name="honey_lemonade">Honey Lemonade</string>
+        <string name="honey_lemonade_hint">Sweet and zesty with a fruity burst.</string>
+
+        <string name="hot_mocha">Hot Mocha</string>
+        <string name="hot_mocha_hint">Bold and creamy with a chocolate note.</string>
+
+        <string name="mango_cream">Mango Cream</string>
+        <string name="mango_cream_hint">Exotic, creamy, and silky smooth.</string>
+
+        <string name="mint_choco">Mint Choco</string>
+        <string name="mint_choco_hint">Fresh and bold with a sweet finish.</string>
+
+        <string name="mint_mojito">Mint Mojito</string>
+        <string name="mint_mojito_hint">Fresh and cool with a fizzy touch.</string>
+
+        <string name="orange_bliss">Orange Bliss</string>
+        <string name="orange_bliss_hint">Citrusy, sweet, and fruity.</string>
+
+        <string name="peach_soda">Peach Soda</string>
+        <string name="peach_soda_hint">Lush and bubbly with a cool finish.</string>
+
+        <string name="pineapple_crush">Pineapple Crush</string>
+        <string name="pineapple_crush_hint">Tangy, cool, and refreshing.</string>
+
+        <string name="pink_bliss">Pink Bliss</string>
+        <string name="pink_bliss_hint">Sweet and creamy with a refreshing twist.</string>
+
+        <string name="strawberry_cream">Strawberry Cream</string>
+        <string name="strawberry_cream_hint">Smooth and creamy with a fruity sweetness.</string>
+
+        <string name="summer_breeze">Summer Breeze</string>
+        <string name="summer_breeze_hint">Tropical and sweet with a refreshing touch.</string>
+
+        <string name="warm_choco">Warm Choco</string>
+        <string name="warm_choco_hint">Warm, creamy, and sweet.</string>
+
+        <string name="zesty_orange">Zesty Orange</string>
+        <string name="zesty_orange_hint">Citrusy and tangy with a hint of sweetness.</string>
+
+    <!--GAME HARD-->
+        <string name="berry_breeze">Berry Breeze</string>
+        <string name="berry_breeze_hint">Sweet and juicy with a tangy chill.</string>
+
+        <string name="berry_tango">Berry Tango</string>
+        <string name="berry_tango_hint">Fruity, sweet, and full of refreshing flavors.</string>
+
+        <string name="citrus_mint">Citrus Mint</string>
+        <string name="citrus_mint_hint">Zesty, herbal, and cool with a bubbly finish.</string>
+
+        <string name="frozen_paradise">Frozen Paradise</string>
+        <string name="frozen_paradise_hint">A tropical mix with a cool, sweet touch.</string>
+
+        <string name="golden_milk">Golden Milk</string>
+        <string name="golden_milk_hint">Creamy and warm with a touch of sweetness and zest.</string>
+
+        <string name="minty_punch">Minty Punch</string>
+        <string name="minty_punch_hint">Fresh and cool with a tropical, tangy twist.</string>
+
+        <string name="rainbow_bliss">Rainbow Bliss</string>
+        <string name="rainbow_bliss_hint">A colorful blend of sweet and tart flavors.</string>
+
+        <string name="spicy_mango">Spicy Mango</string>
+        <string name="spicy_mango_hint">A tropical kick with a spicy, tangy twist.</string>
+
+        <string name="summer_splash">Summer Splash</string>
+        <string name="summer_splash_hint">Citrusy and sweet with a cool, tangy finish.</string>
+
+        <string name="tropical_delight">Tropical Delight</string>
+        <string name="tropical_delight_hint">Exotic, tropical, and refreshingly cool.</string>
+
+        <string name="tropical_fizz">Tropical Fizz</string>
+        <string name="tropical_fizz_hint">Tangy and tropical with a fizzy, cool finish.</string>
+
+    <!--DESCRIPTION-->
+        <string name="menu_name">Menu Name</string>
+        <string name="_0">0</string>
+        <string name="_02_00">02:00</string>
+        <string name="_0x">0</string>
+        <string name="logo">logo</string>
+        <string name="deco">deco</string>
+        <string name="back">back</string>
+        <string name="_0y">0</string>
+        <string name="_0z">0</string>
+
+        <string name="btn_hard">btn_hard</string>
+        <string name="btn_hard1">btn_hard1</string>
+        <string name="btn_hard2">btn_hard2</string>
+        <string name="btn_hard3">btn_hard3</string>
+        <string name="btn_hard4">btn_hard4</string>
+        <string name="btn_hard5">btn_hard5</string>
+        <string name="btn_hard6">btn_hard6</string>
+        <string name="btn_hard7">btn_hard7</string>
+        <string name="btn_hard8">btn_hard8</string>
+        <string name="btn_hard9">btn_hard9</string>
+
+        <string name="btn_normal">btn_normal</string>
+        <string name="btn_normal1">btn_normal1</string>
+        <string name="btn_normal2">btn_normal2</string>
+        <string name="btn_normal3">btn_normal3</string>
+        <string name="btn_normal4">btn_normal4</string>
+        <string name="btn_normal5">btn_normal5</string>
+        <string name="btn_normal6">btn_normal6</string>
+        <string name="image">Image</string>
+</resources>

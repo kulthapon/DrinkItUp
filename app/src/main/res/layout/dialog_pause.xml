@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent" >
+
+        <!-- Box: พื้นหลัง อยู่กลาง -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_box"
+            android:layout_gravity="center" />
+
+        <!-- TextView ซ้อนบน Box อยู่ด้านบน -->
+        <TextView
+            android:id="@+id/textPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/header_orange"
+            android:fontFamily="@font/nunito_black"
+            android:gravity="center"
+            android:paddingLeft="40dp"
+            android:paddingTop="15dp"
+            android:paddingRight="40dp"
+            android:paddingBottom="15dp"
+            android:text="@string/pause"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            tools:ignore="TextContrastCheck"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="70dp"
+            android:padding="30dp"
+            android:gravity="center">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnContinue"
+                android:text="@string/b_continue"
+                app:iconTint="@color/white"
+                android:textColor="@color/white"
+                android:background="@drawable/button_green"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/nunito_black"
+                android:paddingTop="2dp"
+                android:paddingBottom="0dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textSize="13sp"
+                app:backgroundTint="@null"
+                app:icon="@drawable/button_continue"
+                app:iconGravity="start"
+                app:iconPadding="0dp"
+                app:iconSize="40dp"
+                tools:ignore="TextContrastCheck,ButtonStyle" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnNewGame"
+                android:text="@string/b_newgame"
+                app:iconTint="@color/white"
+                android:textColor="@color/white"
+                android:background="@drawable/button_pink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/nunito_black"
+                android:paddingTop="2dp"
+                android:paddingBottom="0dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textSize="13sp"
+                app:backgroundTint="@null"
+                app:icon="@drawable/button_again"
+                app:iconGravity="start"
+                app:iconPadding="0dp"
+                app:iconSize="40dp"
+                tools:ignore="TextContrastCheck,ButtonStyle" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnHome"
+                android:text="@string/b_home"
+                app:iconTint="@color/white"
+                android:textColor="@color/white"
+                android:background="@drawable/button_aqua"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/nunito_black"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textSize="13sp"
+                app:backgroundTint="@null"
+                app:icon="@drawable/button_home"
+                app:iconGravity="start"
+                app:iconPadding="0dp"
+                app:iconSize="30dp"
+                tools:ignore="TextContrastCheck,ButtonStyle" />
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+
+</LinearLayout>

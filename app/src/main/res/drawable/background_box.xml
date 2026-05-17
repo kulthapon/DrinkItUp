@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- ครึ่งบน - Transparent -->
+    <item android:bottom="25dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />  <!-- ทำให้โปร่งใส -->
+        </shape>
+    </item>
+
+    <!-- ครึ่งล่าง - Yellow with rounded corners -->
+    <item android:top="30dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/light_yellow" />  <!-- สีพื้นหลังเป็นสีเหลือง -->
+            <corners android:radius="25dp" />  <!-- ทำให้ขอบมน -->
+            <stroke android:color="@color/white" android:width="2dp" />
+        </shape>
+    </item>
+</layer-list>
