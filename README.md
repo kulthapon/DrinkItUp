@@ -1,2 +1,2 @@
 # DrinkItUp
-test app: https://appetize.io/app/b_4cvdnd2usimbmragsxwtnvftkm
+demo: https://appetize.io/app/b_4cvdnd2usimbmragsxwtnvftkm
