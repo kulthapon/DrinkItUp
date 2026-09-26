@@ -4,6 +4,5 @@ Drink It Up is an Android game where players create drinks by selecting the corr
 
 ---
 
-<img width="225" height="499" alt="image" src="https://github.com/user-attachments/assets/afed40e9-12a6-4dad-995c-e14831f9db46" /> <img width="225" height="499" alt="image" src="https://github.com/user-attachments/assets/cae79841-be34-45bd-b28d-d3742081d613" /> <img width="225" height="499" alt="image" src="https://github.com/user-attachments/assets/8673811b-2186-4ed4-81c3-1eb61eb5996f" /> <img width="225" height="499" alt="image" src="https://github.com/user-attachments/assets/73f00c2b-d47b-4fd8-a387-c1008d374c12" />
-
+<img width="225" height="499" alt="image" src="https://github.com/user-attachments/assets/afed40e9-12a6-4dad-995c-e14831f9db46" /> <img width="225" height="499" alt="image" src="https://github.com/user-attachments/assets/cae79841-be34-45bd-b28d-d3742081d613" /> <img width="225" height="499" alt="image" src="https://github.com/user-attachments/assets/8673811b-2186-4ed4-81c3-1eb61eb5996f" />
 
